@@ -144,4 +144,4 @@ JOIN CovidVaccinations vac
 	ON dea.location = vac.location
 	and dea.date = vac.date
 WHERE dea.continent is not null
-GO 
+GO
